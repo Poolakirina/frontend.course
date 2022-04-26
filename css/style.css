@@ -1,0 +1,24 @@
+/*this is a comment*/
+h1,p {
+    color: #4B0082; background-color: #E6E6FA;
+}
+p:hover{
+    background-color: #C71585;
+}
+h1:hover{
+    background-color: #C71585;
+}
+body {
+    background-color:#DCDCDC;
+}
+label:hover{ 
+    color:#191970;
+
+}
+body {
+    background-image: url(../test/Images/53-light-purple-gradient.jpg);
+    background-repeat: no-repeat;
+}
+input:hover {
+    border-style: solid; border-color: #C71585; border-width: medium;
+}

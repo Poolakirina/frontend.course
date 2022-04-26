@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Registration form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <h1>Регистрация участников на марафон "HHH 2022"</h1>
+  <img src="test/images/healthbenefitsmarathon_large.jpg" width="25%" height="150px">
+  <form action="" method="get" target="_self" autocomplete="on"></form>
+    <fieldset>
+       <legend><h3 style="color:#4B0082 ;">Контактные данные</h3></legend>
+    <label for="Фамилия" style="color:#4B0082 ;"><b>Фамилия</b></label>
+     <input type="text" autofocus id="Фамилия" name="Фамилия"><br><br>
+    <label for="Имя" style="color:#4B0082 ;"><b>Имя</b></label>
+     <input type="text" id="Имя" name="Имя"><br>
+     <p><b>Пол</b></p>
+    <label for="Мужской"><small>Мужской</small></label>
+     <input type="radio" id="Мужской" name="Пол"><br>
+    <label for="Женский"><small>Женский</small></label>
+     <input type="radio" id="Женский" name="Пол"><br><br>
+    <label for="Год рождения"style="color:#4B0082 ;" ><b>Год рождения</b></label><br>
+      <input type="date" id="Год рождения" name="Год рождения"><br><br>
+    <label for="Город"style="color:#4B0082 ;" ><b>Город</b></label>
+      <input type="text" id="Город" name="Город">
+      <p><b>Дистанция</b></p>
+    <label for="Марафон"><small>Марафон(~65 км)</small></label>
+      <input type="radio" id="Марафон" name="Марафон"><br>
+    <label for="Полумарафон"><small>Полумарафон(~35 км)</small></label>
+      <input type="radio" id="Полумарафон" name="Полумарафон"><br><br>
+      <p><b>Нужна ли вам доставка на место старта?</b></p>
+       <select name="доставка" id="доставка" size="2">
+          <option value="Да">Да</option>
+          <option value="Нет">Нет</option>
+         </select><br><br>
+    <label for="Ваш e-mail"style="color:#4B0082 ;" ><b>Ваш e-mail</b></label>
+      <input type="email" id="Ваш e-mail" name="Ваш e-mail"><br><br>
+    <label for="Телефон"style="color:#4B0082 ;" ><b>Телефон</b></label>
+      <input type="number" id="Телефон" name="Телефон"><br><br>
+  <p><b>Согласие с правилами</b></p>
+      <input type="checkbox" id="Согласие с правилами" name="Согласие с правилами">
+    <label for="Согласие с правилами">Я принимаю все правила участия в марафоне и обязуюсь их соблюдать</label>
+   <br><br> 
+  <input type="submit" value="Готово"><br>
+    </fieldset>
+      
+</form>
+</body>
+</html>
