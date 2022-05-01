@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 1000px;
+    background-image: url('../test/Images/261-2617153_wallpaper-linear-brown-yellow-gradient-sandy-brown-light.jpg');
+}
+ul {
+    float: left;
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #4d0a20;
+     opacity: 0.5; 
+}
+li {
+    float: right;
+    }
+li a:hover{
+        background-color: #ffcfd2;
+        }   
+a {
+    display: inline-block;
+    color: #BA55D3 ;
+    padding: 14px 16px;
+    font-weight: bolder;
+    font-size: 150%;
+}
+.icon {
+    width: 7%;
+    float: left;
+    
+}
+.cont {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    
+}
+div {
+    /* position: relative; */
+    padding: 60px;
+}
+h2 {
+    display: inline-block;
+    width: 80%;
+    color:#df5a63 ;
+    float: left;
+    
+    
+
+}
+img {
+    float: right;
+    width: 20%;
+
+}
